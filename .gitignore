@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Build
+dist/
+build/
+
+# Tests
+coverage/
+
+# Variables de entorno (solo se versionan .env.example y .env.test)
+.env
+.env.local
+
+# Logs y sistema
+*.log
+.DS_Store
+Thumbs.db
